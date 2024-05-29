@@ -1,7 +1,7 @@
-// Imprimir números pares de 1 a 10.
+// 2. Imprimir números pares de 1 a 10.
 
-for (let n = 2; n <= 10; n++) {
-    if (n % 2 === 0) {
-        console.log("n°: " + n);
+for (contador = 1; contador <=10; contador++) {
+    if (contador%2 == 0) {
+        console.log(contador)
     }
 }
